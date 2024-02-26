@@ -26,7 +26,7 @@ html{
 /* Estilizando o tamanho e cor de fundo de nosso Body */
 body{
     background-color: var(--cor-primaria);
-    color:#F6F6F6;
+    color: var(--cor-terciaria);
 }
 
 /* Estilizando o cabeçalho */
@@ -147,7 +147,7 @@ body{
 }
 
 .rodape{
-    background-color: #000000;
+    background-color: var(--cor-primaria);
     color:var(--cor-terciaria);
     height: 50px;
     font-family: var(--font-rodape);
@@ -168,7 +168,7 @@ body{
 #curriculo{
     height: 750px;
     background-color: var(--cor-secundaria);
-    border-radius: 0px 300px 0px 0px;
+    border-radius: 0px 400px 0px 0px;
 }
 
 
